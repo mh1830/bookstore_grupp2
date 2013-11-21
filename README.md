@@ -8,3 +8,4 @@ Jättenajs!
 And not only kewl but najs too! No entiendo ni pisca detto!
 I don't know spanish.
 SNART ÄR DET JUL!
+Ska klippa hans toung.
