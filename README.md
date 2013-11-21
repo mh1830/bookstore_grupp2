@@ -1,11 +1,6 @@
 Bookstore_grupp2
 ================
 
-Developing a new administrative system for österslätts papper och böcker and Carl-Christian (iz gonna be really kewl)
+Developing a new administrative system for österslätts papper och böcker and Carl-Christian 
 
-
-Jättenajs!
-And not only kewl but najs too! No entiendo ni pisca detto!
-I don't know spanish.
-SNART ÄR DET JUL!
-Ska klippa hans toung.
+Let's be serious for now.
