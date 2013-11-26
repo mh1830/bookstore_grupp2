@@ -5,5 +5,5 @@ var titles = ["ISBN", "Titel", "Författare", "F-Pris", "Leveransdatum", "Utpris
 
 for (var i=0;i<titles.length;i++)
 {
-$('#mainSection').append('<div class = "inputFields">' + titles[i] + "<br>" + '<input class="lagersaldoSida" type="text">' + "<br>" + "</div>");
+$('html').append('<div class = "inputboxes">' + titles[i] + "<br>" + '<input type="text">' + "<br>" + "</div>");
 }
