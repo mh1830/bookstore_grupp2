@@ -1,45 +1,146 @@
 <!DOCTYPE html>
 <html>	
 <head>
-	<title>Untitled Project</title>
+	<title>Bokhandel Österslats</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<!-- Meyer reset - all browser the same -->
 	<link rel="stylesheet" type="text/css" href="css/meyerReset.css">
 	<!-- Här är min egen CSS -->
 	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link href='http://fonts.googleapis.com/css?family=Average+Sans' rel='stylesheet' type='text/css'>
 	<!-- Inkludera jQuery -->
 	<script src="script/jquery.js"></script>
 	<!-- Här är min JavaScript -->
 	<script src="script/js.js"></script>
 </head>
 <body>
-		<div class="banner">
-		<div class="bannertext">
-			<h1><p>Österslätts</p></h1>
-			<p>Papper & Böcker</p>
-		</div>
-		<div class="icon">
-			<img src="imgs/ikon22.png">
-		</div>
-		<div class="sokruta">
-			sök
-		</div>
-		<div class="sokikon">
-			<img src="imgs/forstoringsglas.png">
-		</div>
-	</div>
-	<div class="bannerknappar">
-		<a href="#">Rapport</a>
-		<a href="#">Lagersaldo</a>
-		<a href="#">Sålda böcker</a>
-		<a href="#">Kundsök</a>
-	</div>
-	<h2>Lagersaldo</h2>
-	<div class="sok">
+	<div id="pageWrap">
+		<header>
+			<div id="logo">
+			  <img id="logo" src="img/logo.png" alt="" />
+			  <h1>Östersläts</h1>
+			  <p id="tagline">papper &amp; böcker</p>
+			</div>
+			<div id="topSearch">
+			  <img src="img/loop.png" alt="" id="lope" />
+			  <div class="search"><span>Sök..</span></div>
+			</div>
+		
+	    
+		</header>
+		<div id="navigation"> 
+			<ul id="navButtons">
+				<li class="menuItem"><a href="rapport.html">Rapport</a></li>
+				<li class="menuItem"><a href="lagersaldo.html">Lagersaldo</a></li>
+				<li class="menuItem"><a href="saldabocker.html">Sålda böcker</a></li>
+				<li class="menuItem"><a href="kundsok.html">Kundsök</a></li>
+	        </ul>
+	    </div><!--#navigation-->
+		<div id="container">
+			
+		<h2>Lagersaldo</h2>
+		 <div id="mainSection">
+			<div class="inputFields">ISBN
+					<br>
+					<input class="lagersaldoSida" type="text">
+			
+	        </div>
+	        <div class="inputFields">
+					Titel
+					<br>
+					<input class="lagersaldoSida" type="text">
+					<br>
+	        </div>
+	        <div class="inputFields">
+					Författare
+					<br>
+					<input class="lagersaldoSida" type="text">
+					<br>
+	        </div>
+	        <div class="inputFields">
+					Pris
+					<br>
+					<input class="lagersaldoSida" type="text">
+					<br>
+	        </div>
+	        <div class="inputFields">
+					Leveransdatum
+					<br>
+					<input class="lagersaldoSida" type="text">
+					<br>
+	        </div>
+	        <div class="inputFields">
+					Utpris
+					<br>
+					<input class="lagersaldoSida" type="text">
+					<br>
+	        </div>
+	        <div class="inputFields">
+					Antal ex
+					<br>
+					<input class="lagersaldoSida" type="text">
+					<br>
+	        </div>
+	        <div class="inputFields">
+					Hyllnummer
+					<br>
+					<input class="lagersaldoSida" type="text">
+					<br>
+	        </div>
+	        <div>
+				<input class="buttonL" type="submit" value="Lägg Till">
+			</div>
+	     </div><!--#mainSection-->	
+	     
+	     <aside>
+			<p>Planen är att börja med Skåneexpressen och tågtrafiken för att sedan efter utvärdering även anpassa övrig trafik. Under sommaren pågår ett omfattande test på ca 130 av Skånetrafikens bussar. Vanligtvis kommer du bara att komma till denna portal men på utvalda fordon fungerar WiFi lösningen fullt ut. </p>
+			<table id="outputLagersaldo">
+				<tr>
+					<th>ISBN: </th>
+					<td>here comes isbn</td>
+				</tr>
+				
+				<tr>
+						<th>Title:</th>
+						<td>here comes title</td>
+				</tr>
+				
+				<tr>
+						<th>Författare:</th>
+						<td>here comes author</td>
+				</tr>
+				
+				<tr>
 
+						<th>Pris:</th>
+						<td>here comes the price</td>
+
+				</tr>
+				
+				<tr>
+						<th>Leveransdatum:</th>
+						<td>here comes the date</td>
+				</tr>
+				
+				<tr>
+						<th>Utpris:</th>
+						<td>here comes the price</td>
+
+				</tr>
+				
+				<tr>
+						<th>Antal ex:</th>
+						<td>antal ex</td>
+				</tr>
+				<tr>
+						<th>Hyllnummer:</th>
+						<td>shelf</td>
+				</tr>
+			</table>
+		</aside>
+				
+		</div>
+	  </div>
 	</div>
-	<div>
-		<input type="submit" value="Lägg Till" class="buttonL">
-	</div> 
 </body>
 </html>
