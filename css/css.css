@@ -1,52 +1,173 @@
-#pageWrap { width: 1000px; height:900px; margin:10px auto; background: #ffffff;border:#000 2px solid;}
-header { height: 150px; background: #b69f74;}
-#logo {width:420px; float:left;}
-#topSearch {width: 420px; height: 120px; float:right;}
-
-
-body {font-family: 'Average Sans', sans-serif; color: #000404;}
-img#logo {width:100px; height:80px;}
-img#lope {width:60px; height:60px;padding-top:10px;padding-left:55px;}
-h1 {font-size: 66px; padding: 20px; }
-h2 {font-size:60px; padding: 10px 20px;margin:0 auto;}
-p#tagline {font-size: 24px;padding-left:50px;}
-div.search {width: 220px; height: 43px; border:1px #000 solid; border-radius: 10px; background: #ddd7cc; float:right; margin: 20px 80px 0 0;}
-div.search>span {padding:40px 20px 20px 20px;}
-
-#container {overflow:hidden;width:999px}
-
-.form-group {padding:10px;}
-.form-group input {box-shadow: 0 0 5px #888; width:200px;}
-.form-group label {padding-right: 20px;}
-
-#mainSection {width:400px; float:left;padding:20px;}
-.inner {padding:60px;}
-.exampel {padding:30px;}
-aside{ width:500px; float:left;}
+#pageWrap { 
+	width: 1000px; 
+	height:900px; 
+	margin:10px auto; 
+	background: #ffffff;
+	border:#000 2px solid;
+}
+header { 
+	height: 150px; 
+	background: #b69f74;
+}
+#logo {
+	width:420px; 
+	float:left;
+}
+#topSearch {
+	width: 420px; 
+	height: 120px; 
+	float:right;
+}
+body {
+	font-family: 'Average Sans', sans-serif; color: #000404;
+}
+img#logo {
+	width:100px; 
+	height:80px;
+}
+img#lope {
+	width:60px; 
+	height:60px;
+	padding-top:10px;
+	padding-left:55px;
+}
+h1 {
+	font-size: 66px; 
+	padding: 20px; 
+}
+h2 {
+	font-size:60px; 
+	padding: 10px 20px;
+	margin:0 auto;
+}
+p#tagline {
+	font-size: 24px;
+	padding-left:50px;
+}
+div.search {
+	width: 220px; 
+	height: 43px; 
+	border:1px #000 solid; 
+	border-radius: 10px; 
+	background: #ddd7cc; 
+	float:right; 
+	margin: 20px 80px 0 0;
+}
+div.search>span {
+	padding:40px 20px 20px 20px;
+}
+#container {
+	overflow:hidden;width:999px
+}
+.form-group {
+	padding:10px;
+}
+.form-group input {
+	box-shadow: 0 0 5px #888; 
+	width:200px;
+}
+.form-group label {
+	padding-right: 20px;
+}
+#mainSection {
+	width:400px; 
+	float:left;
+	padding:20px;
+}
+.inner {
+	padding:60px;
+}
+.exampel {
+	padding:30px;
+}
+aside{ 
+	width:500px; 
+	float:left;
+}
 
 /* general table styling */
 
-table {width:300px; background: #ccc; padding:20px;}
-thead {background:#000; height:20px; color:#fff; border:1px #000 solid;}
-tbody {border:1px #000 solid;}
-
-button{margin-top: 20px;}
-td {text-align: center;}
-td, th {padding:5px;}
+table {
+	width:300px; 
+	background: #ccc; 
+	padding:20px;
+}
+thead {
+	background:#000; 
+	height:20px; 
+	color:#fff; 
+	border:1px #000 solid;
+}
+tbody {
+	border:1px #000 solid;
+}
+button{
+	margin-top: 20px;
+}
+td {
+	text-align: center;
+}
+td, th {
+	padding:5px;
+}
 
 /* Styling output tabel on page lagersaldo.html */
-#outputLagersaldo {background:none; width:420px; margin-top:20px;}
-#outputLagersaldo thead {background: none; color:#000; border:none; width:100px;}
-#outputLagersaldo tbody{border:none;width:200px;}
-#outputLagersaldo thead td {width:100px;}
+#outputLagersaldo {
+	background:none; 
+	width:420px; 
+	margin-top:20px;
+}
+#outputLagersaldo thead {
+	background: none; 
+	color:#000; 
+	border:none; 
+	width:100px;
+}
+#outputLagersaldo tbody{
+	border:none;
+	width:200px;
+}
+#outputLagersaldo thead td {
+	width:100px;
+}
 
 /* navigation */
-#navigation {width:1000px; margin:0 auto; line-height: 1;list-style: none; clear:both;}
-#navigation li {float:left; top:-20px;}
-#navigation li a {padding:10px 10px; font:15px; line-height: 18px; text-decoration: none; font-size:14px; color:#000;}
-ul#navButtons {float:right;}
-.menuItem {background:#b69f74;width:126px;height:60px; border-bottom-right-radius: 25px;
-border-bottom-left-radius: 25px;}
-
-.lagersaldoSida {width:200px; box-shadow: #eee 3px 3px 3px; border-radius: 4px; padding:5px; margin:10px;}
-.lagersaldoSida:hover {box-shadow: 5px 5px 5px #b69f74;}
+#navigation {
+	width:1000px; 
+	margin:0 auto; 
+	line-height: 1;
+	list-style: none; 
+	clear:both;
+}
+#navigation li {
+	float:left; 
+	top:-20px;
+}
+#navigation li a {
+	padding:10px 10px; 
+	font:15px; 
+	line-height: 18px; 
+	text-decoration: none; 
+	font-size:14px; 
+	color:#000;
+}
+ul#navButtons {
+	float:right;
+}
+.menuItem {
+	background:#b69f74;
+	width:126px;
+	height:60px; 
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+.lagersaldoSida {
+	width:200px; 
+	box-shadow: #eee 3px 3px 3px; 
+	border-radius: 4px; 
+	padding:5px; 
+	margin:10px;
+}
+.lagersaldoSida:hover {
+	box-shadow: 5px 5px 5px #b69f74;
+}
