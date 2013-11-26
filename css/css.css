@@ -153,7 +153,8 @@ td, th {
 	color:#000;
 }
 ul#navButtons {
-	float:right;
+	float:left;
+	
 }
 .menuItem {
 	background:#b69f74;
