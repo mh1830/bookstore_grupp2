@@ -9,5 +9,23 @@ function start (){
 	};
 };
 
-$(start);
+// Calculator for sales price of the book. Includes both inkMoms and exMoms.
+function utpris(fpris){
+	var exMoms = fpris * 1.8
+	var inkMoms = exMoms * 1.25
+	return fpris
+		+ "\nexMoms "
+		+ exMoms
+		+ "\ninkMoms "
+		+ inkMoms;
+};
+
+// send result of function utpris to console log
+console.log(utpris(10));
+
+$(start,utpris);
+
+
+
+
 
