@@ -5,7 +5,7 @@ function start (){
 
 	for (var i=0;i<titles.length;i++)
 	{
-	$('#mainSection').append('<div class = "inputFields">' + titles[i] + "<br>" + '<input class="lagersaldoSida" type="text">' + "<br>" + "</div>");
+	$('#mainSection').prepend('<div class = "inputFields">' + titles[i] + "<br>" + '<input class="lagersaldoSida" type="text">' + "<br>" + "</div>");
 	};
 };
 
