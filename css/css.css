@@ -1,7 +1,7 @@
 #pageWrap {  
 	margin:10px auto; 
 	background: #ffffff;
-	border:#000 2px solid;
+	border:#000 0px solid;
 	position: auto;
 }
 header { 
@@ -105,7 +105,7 @@ button{
 	margin-top: 20px;
 }
 td {
-	text-align: left;
+	text-align: center;
 }
 td, th {
 	padding:5px;
