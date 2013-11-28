@@ -1,7 +1,7 @@
 //added a loop that places the different input slots that we need on the page. CSS to come later
 //may need to be modified later.
 function start (){
-	var titles = ["ISBN", "Titel", "Författare", "F-Pris", "Leveransdatum", "Utpris", "Hyllnummer", "Antal ex"];
+	var titles = ["Antal ex", "Hyllnummer", "Utpris", "Leveransdatum", "F-Pris", "Författare","Titel" , "ISBN"];
 
 	for (var i=0;i<titles.length;i++)
 	{
