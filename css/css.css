@@ -140,6 +140,8 @@ td, th {
 	line-height: 1;
 	list-style: none; 
 	clear:both;
+	position: relative;
+	width:100%;
 }
 #navigation li {
 	float:left; 
@@ -162,7 +164,10 @@ ul#navButtons {
 .menuItem {
 	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px; 
-	padding:0px; 
+	padding:0px;
+	background: url("../imgs/tabbar1.png")no-repeat;
+	width: 100px;
+	height: 100px; 
 }
 .lagersaldoSida {
 	width:200px; 
