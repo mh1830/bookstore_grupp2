@@ -81,7 +81,8 @@ div.search>span {
 }
 aside{ 
 	width:500px; 
-	float:left;
+	float:left;	
+	text-align: left;
 }
 
 /* general table styling */
