@@ -146,7 +146,7 @@ td, th {
 #navigation li {
 	float:left; 
 	top:-20px;
-
+	padding-left: 30px;
 }
 #navigation li a {
 	padding: 0px 0px; 
@@ -166,8 +166,9 @@ ul#navButtons {
 	border-bottom-left-radius: 25px; 
 	padding:0px;
 	background: url("../imgs/tabbar1.png")no-repeat;
-	width: 100px;
-	height: 100px; 
+	width: 175px;
+	height: 150px;
+
 }
 .lagersaldoSida {
 	width:200px; 
