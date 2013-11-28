@@ -1,0 +1,21 @@
+{
+	"host": "localhost",
+	"database": "bokhandel",
+	"username" : "root",
+	"password":"",
+
+
+	"insertNewBook" : [
+		"INSERT INTO hantering (ISBN,Titel,Forfattare,Antal,Fpris,Pris) VALUES (",  
+			[["isbn"]],",",
+			[["titel"]],",",
+			[["forfattare"]],",",
+			[["antal"]],",",
+			[["fpris"]],",",
+			[["utpris"]],
+
+
+
+	    ");"
+	]
+}
