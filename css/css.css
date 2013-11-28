@@ -1,5 +1,5 @@
 #pageWrap {  
-	margin:10px auto; 
+	margin:0px auto; 
 	background: #ffffff;
 	border:#000 0px solid;
 	position: auto;
@@ -56,7 +56,9 @@ div.search>span {
 	padding:40px 20px 20px 20px;
 }
 #container {
-	overflow:hidden;width:999px
+	overflow:hidden;
+	width:999px;
+	margin: 0 auto;
 }
 .form-group {
 	padding:10px;
@@ -158,9 +160,10 @@ ul#navButtons {
 .menuItem {
 	background:#b69f74;
 	width:126px;
-	height:60px; 
+	height:30px; 
 	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px;
+	padding:0px;
 }
 .lagersaldoSida {
 	width:200px; 
@@ -172,7 +175,7 @@ ul#navButtons {
 .lagersaldoSida:hover {
 	box-shadow: 5px 5px 5px #b69f74;
 }
-
+/* Knappen Lägg till */
 .buttonL {
    	padding: 6px 10px;
     white-space: nowrap;
@@ -203,7 +206,7 @@ ul#navButtons {
      outline: none;
 }
 .buttonL {
-float: left;
-margin-left: 155px;
-margin-top: 5px;
+	float: left;
+	margin-left: 155px;
+	margin-top: 5px;
 }
