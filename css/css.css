@@ -144,6 +144,7 @@ td, th {
 #navigation li {
 	float:left; 
 	top:-20px;
+
 }
 #navigation li a {
 	padding: 0px 0px; 
@@ -151,19 +152,17 @@ td, th {
 	line-height: 18px; 
 	text-decoration: none; 
 	font-size:14px; 
-	color:#000;
+	color:#000; 
+
 }
 ul#navButtons {
 	float:left;
-	
+
 }
 .menuItem {
-	background:#b69f74;
-	width:126px;
-	height:30px; 
 	border-bottom-right-radius: 25px;
-	border-bottom-left-radius: 25px;
-	padding:0px;
+	border-bottom-left-radius: 25px; 
+	padding:0px; 
 }
 .lagersaldoSida {
 	width:200px; 
