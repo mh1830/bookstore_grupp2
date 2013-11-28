@@ -12,7 +12,7 @@ function start (){
 // Calculator for sales price of the book. Includes both inkMoms and exMoms.
 function utpris(fpris){
 	var exMoms = fpris * 1.8
-	var inkMoms = exMoms * 1.25
+	var inkMoms = exMoms * 1.06
 	return fpris
 		+ "\nexMoms "
 		+ exMoms
