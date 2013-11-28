@@ -132,7 +132,7 @@ td, th {
 
 /* navigation */
 #navigation {
-	width:1000px; 
+	/*width:1000px;*/ 
 	margin:0 auto; 
 	line-height: 1;
 	list-style: none; 
@@ -143,7 +143,7 @@ td, th {
 	top:-20px;
 }
 #navigation li a {
-	padding:10px 10px; 
+	padding: 0px 0px; 
 	font:15px; 
 	line-height: 18px; 
 	text-decoration: none; 
