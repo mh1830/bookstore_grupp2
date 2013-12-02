@@ -6,7 +6,7 @@
 
 
 	"insertNewBook" : [
-		"INSERT INTO hantering (ISBN,Titel,Forfattare,Antal,Fpris,Pris) VALUES (",  
+		"INSERT INTO hantering (ISBN,Titel,Forfattare,Antal,Fpris,Pris,) VALUES (",  
 			[["isbn"]],",",
 			[["titel"]],",",
 			[["forfattare"]],",",
