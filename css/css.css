@@ -193,6 +193,12 @@ body#rapport li.menuItem1, body#index li.menuItem2, body#saldabocker li.menuItem
 .lagersaldoSida:hover {
 	box-shadow: 5px 5px 5px #b69f74;
 }
+#antal, #pris {
+	width:73px;
+}
+
+.calculatePrice {width: 73px; position:absolute; top:857px; left:140px;}
+
 /* Knappen Lägg till */
 .buttonL {
    	padding: 6px 10px;
