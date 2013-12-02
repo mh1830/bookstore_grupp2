@@ -162,7 +162,7 @@ ul#navButtons {
 	float:left;
 
 }
-.menuItem {
+.menuItem1, .menuItem2, .menuItem3, .menuItem4 {
 	border-bottom-right-radius: 25px;
 	border-bottom-left-radius: 25px; 
 	padding:0px;
@@ -170,12 +170,13 @@ ul#navButtons {
 	width: 175px;
 	height: 27px;
 }
-.menuItem:hover {
+.menuItem1:hover, .menuItem2:hover, .menuItem3:hover, .menuItem4:hover {
 	background: url("../imgs/tabbar2.png")no-repeat;
 }
-.menuItem:active:after {
+body#rapport li.menuItem1, body#index li.menuItem2, body#saldabocker li.menuItem3, body#kundsok li.menuItem4 {
 	background: url("../imgs/tabbar2.png")no-repeat;
 }
+
 .lagersaldoSida {
 	width:200px; 
 	box-shadow: #eee 3px 3px 3px; 
