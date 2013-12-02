@@ -6,7 +6,7 @@ function start (){
 
 	for (var i=0;i<titles.length;i++)
 	{
-	$('#mainSection').prepend('<div class = "inputFields">' + titles[i] + "<br>" + '<input class="lagersaldoSida" type="text" id="' + 
+	$('#mainSection').prepend('<div class = "inputFields">' + titles[i] + "<br>" + '<input class="lagersaldoSida" type="text" autofocus id="' + 
 		namn[i] + '">' + "<br>" + "</div>");
 	};
 	collectFormData();
