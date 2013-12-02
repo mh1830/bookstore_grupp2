@@ -49,16 +49,16 @@ for (var i = 0; i < data.length; i++) {
 	console.log(data[i]);
 	// for each
 	html +="<tr>"
-	+"<td>" + data[i].isbn + "</td>"
-	+"<td>" + data[i].title + "</td>"
-	+"<td>" + data[i].author + "</td>"
+	+"<td>" + data[i].ISBN + "</td>"
+	+"<td>" + data[i].Titel + "</td>"
+	+"<td>" + data[i].Forfattare + "</td>"
 	+"</tr>"
 }
 html += "</table>";
 console.log(html);
 
 $(".result").html(html);
-	
+
 };
 
 //a function to collent the data from the input fields

@@ -259,7 +259,7 @@ border-spacing: 0;
 }
 
 
-#resoult {   
+.result {   
 
   background: #6cbb6b;
   background-image: -moz-linear-gradient(#95d788, #6cbb6b);
@@ -286,13 +286,13 @@ border-spacing: 0;
   text-shadow: 0 1px 0 rgba(255,255,255,0.5);
 }
 
-#resoult:hover {   
+.result:hover {   
   background: #95d788;
   background-image: -moz-linear-gradient(#6cbb6b, #95d788);
   background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #95d788),color-stop(1, #6cbb6b));
 } 
 
-#resoult:active {   
+.resoult:active {   
   background: #95d788;
   outline: none;
    
