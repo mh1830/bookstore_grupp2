@@ -10,6 +10,55 @@ function start (){
 		namn[i] + '">' + "<br>" + "</div>");
 	};
 	collectFormData();
+$('#search').keyup(function(){
+$.ajax({
+		url:"sql",
+		cache:false,
+		data: {
+			action: "autoComplete",
+			fragment: $(this).val()
+		},
+		success:function(data){
+			//we have recieved the answer as json
+			
+			renderResult(data);
+		},
+		error:function(data){
+			console.log(x.responseJSON);
+		}
+	});
+
+});
+
+	// ask for all books for taylor
+		
+};
+
+// render result
+function renderResult(data){
+	var html="<table id='searchResult'>";
+	html += "<thead><tr>"
+	+ "<th>ISBN</th>"
+	+ "<th>Title</th>"
+	+ "<th>Autor</th>"
+	
+	+ "</tr></thead>"
+
+
+for (var i = 0; i < data.length; i++) {
+	console.log(data[i]);
+	// for each
+	html +="<tr>"
+	+"<td>" + data[i].isbn + "</td>"
+	+"<td>" + data[i].title + "</td>"
+	+"<td>" + data[i].author + "</td>"
+	+"</tr>"
+}
+html += "</table>";
+console.log(html);
+
+$(".result").html(html);
+	
 };
 
 //a function to collent the data from the input fields
