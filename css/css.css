@@ -58,7 +58,7 @@ div.search>span {
 #container {
 	overflow:hidden;
 	width:999px;
-	margin: 0 auto;
+	margin: 0 auto;	
 }
 .form-group {
 	padding:10px;
@@ -167,8 +167,11 @@ ul#navButtons {
 	padding:0px;
 	background: url("../imgs/tabbar1.png")no-repeat;
 	width: 175px;
-	height: 150px;
+	height: 80px;
 
+}
+.menuItem:hover {
+	background: url("../imgs/tabbar2.png")no-repeat;
 }
 .lagersaldoSida {
 	width:200px; 
