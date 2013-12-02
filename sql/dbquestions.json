@@ -17,5 +17,40 @@
 
 
 	    ");"
+	],
+
+
+
+	"getBooksByTitle" : [
+		"SELECT * FROM hantering WHERE Titel =",
+		[["titel"]]
+	],
+
+	"getBooksByAuthor" : [
+		"SELECT * FROM hantering WHERE Forfattare =",
+		[["forfattare"]]
+	],
+
+	"getBookByISBN" : [
+		"SELECT * FROM hantering WHERE ISBN =",
+		[["isbn"]]
+	],
+
+	"autoComplete" : [
+		"SELECT * FROM hantering WHERE ISBN LIKE",
+		[["%","fragment","%"]],
+		"OR Forfattare LIKE",
+		[["%","fragment","%"]],
+		"OR Titel LIKE",
+		[["%","fragment","%"]]
+	],
+
+	"updateBookTitle" : [
+		"UPDATE hantering SET Titel =",
+		[["titel"]],
+		"WHERE ISBN=",
+		[["isbn"]],
+		";SELECT * FROM hantering WHERE ISBN=",
+		[["isbn"]]
 	]
 }
