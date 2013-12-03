@@ -97,15 +97,13 @@ function sendFormData (data) {
 function utpris(fpris){
 	var exMoms = fpris * 1.8
 	var inkMoms = exMoms * 1.06
-	return fpris
-		+ "\nexMoms "
-		+ exMoms
-		+ "\ninkMoms "
-		+ inkMoms;
+	return Math.round(inkMoms);
 };
 
 // send result of function utpris to console log
-console.log(utpris(10));
+$(document).on("keyup","#fpris", function(){
+	$("#utpris").val(utpris($(this).val()/1));
+});
 
 $(start,utpris);
 
