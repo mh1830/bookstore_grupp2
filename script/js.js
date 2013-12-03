@@ -61,6 +61,13 @@ console.log(html);
 $(".result").html(html);
 
 };
+/*$("<td>").click(function(e){
+
+
+
+select(e.data)
+}*/
+
 
 //a function to collent the data from the input fields
 function collectFormData () {
