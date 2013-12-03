@@ -10,7 +10,7 @@ function start (){
 		namn[i] + '">' + "<br>" + "</form>");
 	};
 	collectFormData();
-
+//this is where the search function starts.
 $('#search').keyup(function(){
 $.ajax({
 		url:"sql",
