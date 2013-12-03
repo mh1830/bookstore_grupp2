@@ -13,7 +13,7 @@ header {
 	float:left;
 }
 #topSearch {
-	width: 420px; 
+	/*width: 420px; -test herbert*/
 	height: 120px; 
 	float:right;
 }
@@ -27,10 +27,12 @@ img#logo {
 	margin-top: 30px;
 }
 img#lope {
-	width:60px; 
+	/*width:60px; 
 	height:60px;
 	padding-top:10px;
-	padding-left:55px;
+	padding-left:55px;*/
+	margin-left: -100px;
+	margin-top: 40px;
 }
 h1 {
 	font-size: 66px; 
@@ -113,12 +115,7 @@ tbody {
 button{
 	margin-top: 20px;
 }
-td {
-	text-align: center;
-}
-td, th {
-	padding:5px;
-}
+
 
 /* Styling output tabel on page lagersaldo.html */
 #outputLagersaldo {
@@ -189,15 +186,23 @@ body#rapport li.menuItem1, body#index li.menuItem2, body#saldabocker li.menuItem
 	border-radius: 4px; 
 	padding:5px; 
 	margin:10px;
+	display:block;
 }
 .lagersaldoSida:hover {
 	box-shadow: 5px 5px 5px #b69f74;
 }
-#antal, #pris {
-	width:73px;
-}
+/* Last two inputfields*/
 
-.calculatePrice {width: 73px; position:absolute; top:857px; left:140px;}
+#antalMin, #antalPlus {
+	width:63px;
+	}
+#mainSection label {
+	padding-left:10px;
+	}
+
+#antalMin {position:absolute; top:823px; left:260px;}
+.antalMin {position: absolute; top:807px; left:260px;}
+
 
 /* Knappen Lägg till */
 .buttonL {
@@ -236,76 +241,66 @@ body#rapport li.menuItem1, body#index li.menuItem2, body#saldabocker li.menuItem
 }
 /* herbertt code*/
 td, th {
-
-  border:1px solid #000;
-  padding:5px;
+	border:1px solid #000;
+	padding:5px;
 }
 
 th{
-  background:#b69f74;
-  font-weight:bold;
+  	background:#b69f74;
+  	font-weight:bold;
 }
 
 #searchResult {
 	float: left;
-  width: 200px;
- background: #f7f7f7;
- border-collapse: collapse;
-border-spacing: 0;
-
+	width: 200px;
+	background: #f7f7f7;
+	border-collapse: collapse;
+	border-spacing: 0;
+	z-index: 999;
+	position: absolute;
 }
 #search, #submit {
-  float: left;
+ 	float: left;
 }
-
-
-.result {   
-
-  background: #6cbb6b;
-  background-image: -moz-linear-gradient(#95d788, #6cbb6b);
-  background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #6cbb6b),color-stop(1, #95d788));
-  
-  
-  border-radius: 3px 50px 50px 3px;
-  
-  border-width: 1px;
-  border-style: solid;
-  border-color: #7eba7c #578e57 #447d43;
-  
- 
-   box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;      
+#result {   
+	background: #6cbb6b;
+	/*background-image: -moz-linear-gradient(#95d788, #6cbb6b);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #6cbb6b),color-stop(1, #95d788));*/
+	border-radius: 3px 50px 50px 3px;
+	border-width: 1px;
+	border-style: solid;
+	/*border-color: #7eba7c #578e57 #447d43;*/
+	/*box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;  */    
 
  /* height: 35px;*/
-  margin: 0 0 0 10px;
-        padding: 0;
-  width: 90px;
-  cursor: pointer;
-  font: bold 12px Arial, Helvetica;
-  color: #23441e;
-  
-  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	margin: 0 0 0 10px;
+	padding: 0;
+	width: 90px;
+	cursor: pointer;
+	font: bold 14px Arial, Helvetica;
+	color: #23441e;
+	/*text-shadow: 0 1px 0 rgba(255,255,255,0.5);*/
 }
 
-.result:hover {   
+#result:hover {   
   background: #95d788;
   background-image: -moz-linear-gradient(#6cbb6b, #95d788);
   background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #95d788),color-stop(1, #6cbb6b));
 } 
 
-.resoult:active {   
+#result:active {   
   background: #95d788;
+  background-color: #fff;
   outline: none;
-   
-   
-   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;    
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;    
 }
 
-
 #search {
- width: 220px;
-height: 43px;
-border: 1px #000 solid;
-border-radius: 10px;
-background: #ddd7cc;
-float: right;
-margin: 20px 80px 0 0;
+	width: 300px;
+	height: 35px;
+	border: 1px #000 solid;
+	border-radius: 10px;
+	background: #ddd7cc;
+	float: right;
+	margin: -40px 60px 0 0;
+}

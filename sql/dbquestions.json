@@ -21,11 +21,13 @@
 	    ");"
 	],
 
+   
 
 
 	"getBooksByTitle" : [
 		"SELECT * FROM hantering WHERE Titel =",
 		[["titel"]]
+
 	],
 
 	"getBooksByAuthor" : [
@@ -46,6 +48,11 @@
 		"OR Titel LIKE",
 		[["%","fragment","%"]]
 	],
+	
+	 "getBooksInfo" :[
+    	"SELECT isbn, titel, forfattare, antal, fpris, utpris,hylla, leveransdatum FROM hantering "
+
+    ],
 
 	"updateBookTitle" : [
 		"UPDATE hantering SET Titel =",
