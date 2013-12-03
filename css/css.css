@@ -31,7 +31,7 @@ img#lope {
 	height:60px;
 	padding-top:10px;
 	padding-left:55px;*/
-	margin-left: -80px;
+	margin-left: -100px;
 	margin-top: 40px;
 }
 h1 {
@@ -305,11 +305,11 @@ border-spacing: 0;
 }
 
 #search {
-	width: 220px;
-	height: 43px;
+	width: 300px;
+	height: 35px;
 	border: 1px #000 solid;
 	border-radius: 10px;
 	background: #ddd7cc;
 	float: right;
-	margin: -45px 60px 0 0;
+	margin: -40px 60px 0 0;
 }
