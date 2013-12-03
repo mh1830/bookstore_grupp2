@@ -241,53 +241,45 @@ body#rapport li.menuItem1, body#index li.menuItem2, body#saldabocker li.menuItem
 }
 /* herbertt code*/
 td, th {
-
-  border:1px solid #000;
-  padding:5px;
+	border:1px solid #000;
+	padding:5px;
 }
 
 th{
-  background:#b69f74;
-  font-weight:bold;
+  	background:#b69f74;
+  	font-weight:bold;
 }
 
 #searchResult {
 	float: left;
-  width: 200px;
- background: #f7f7f7;
- border-collapse: collapse;
-border-spacing: 0;
-
+	width: 200px;
+	background: #f7f7f7;
+	border-collapse: collapse;
+	border-spacing: 0;
+	z-index: 999;
+	position: absolute;
 }
 #search, #submit {
-  float: left;
+ 	float: left;
 }
-
-
 #result {   
-  background: #6cbb6b;
-  background-image: -moz-linear-gradient(#95d788, #6cbb6b);
-  background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #6cbb6b),color-stop(1, #95d788));
-  
-  
-  border-radius: 3px 50px 50px 3px;
-  
-  border-width: 1px;
-  border-style: solid;
-  border-color: #7eba7c #578e57 #447d43;
-  
- 
-   box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;      
+	background: #6cbb6b;
+	/*background-image: -moz-linear-gradient(#95d788, #6cbb6b);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #6cbb6b),color-stop(1, #95d788));*/
+	border-radius: 3px 50px 50px 3px;
+	border-width: 1px;
+	border-style: solid;
+	/*border-color: #7eba7c #578e57 #447d43;*/
+	/*box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;  */    
 
  /* height: 35px;*/
-  margin: 0 0 0 10px;
-        padding: 0;
-  width: 90px;
-  cursor: pointer;
-  font: bold 14px Arial, Helvetica;
-  color: #23441e;
-  
-  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	margin: 0 0 0 10px;
+	padding: 0;
+	width: 90px;
+	cursor: pointer;
+	font: bold 14px Arial, Helvetica;
+	color: #23441e;
+	/*text-shadow: 0 1px 0 rgba(255,255,255,0.5);*/
 }
 
 #result:hover {   
@@ -298,10 +290,9 @@ border-spacing: 0;
 
 #result:active {   
   background: #95d788;
+  background-color: #fff;
   outline: none;
-   
-   
-   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;    
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;    
 }
 
 #search {
