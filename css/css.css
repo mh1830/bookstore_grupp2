@@ -189,12 +189,18 @@ body#rapport li.menuItem1, body#index li.menuItem2, body#saldabocker li.menuItem
 .lagersaldoSida:hover {
 	box-shadow: 5px 5px 5px #b69f74;
 }
-#antal, #pris {
-	width:73px;
-}
-#mainSection label {padding-left:10px;}
+/* Last two inputfields*/
 
-.calculatePrice {width: 73px; position:absolute; top:857px; left:140px;}
+#antalMin, #antalPlus {
+	width:63px;
+	}
+#mainSection label {
+	padding-left:10px;
+	}
+
+#antalMin {position:absolute; top:823px; left:260px;}
+.antalMin {position: absolute; top:807px; left:260px;}
+
 
 /* Knappen Lägg till */
 .buttonL {
