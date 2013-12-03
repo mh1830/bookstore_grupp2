@@ -6,8 +6,8 @@ function start (){
 
 	for (var i=0;i<titles.length;i++)
 	{
-	$('#mainSection').prepend('<div class = "inputFields">' + titles[i] + "<br>" + '<input class="lagersaldoSida" type="text" autofocus id="' + 
-		namn[i] + '">' + "<br>" + "</div>");
+	$('#mainSection').prepend('<form class = "inputFields">' + titles[i] + "<br>" + '<input class="lagersaldoSida" type="text" autofocus id="' + 
+		namn[i] + '">' + "<br>" + "</form>");
 	};
 	collectFormData();
 $('#search').keyup(function(){
