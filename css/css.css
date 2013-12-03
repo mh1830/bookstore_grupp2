@@ -189,6 +189,7 @@ body#rapport li.menuItem1, body#index li.menuItem2, body#saldabocker li.menuItem
 	border-radius: 4px; 
 	padding:5px; 
 	margin:10px;
+	display:block;
 }
 .lagersaldoSida:hover {
 	box-shadow: 5px 5px 5px #b69f74;
@@ -196,6 +197,7 @@ body#rapport li.menuItem1, body#index li.menuItem2, body#saldabocker li.menuItem
 #antal, #pris {
 	width:73px;
 }
+#mainSection label {padding-left:10px;}
 
 .calculatePrice {width: 73px; position:absolute; top:857px; left:140px;}
 
