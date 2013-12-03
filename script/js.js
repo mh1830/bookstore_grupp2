@@ -6,10 +6,11 @@ function start (){
 
 	for (var i=0;i<titles.length;i++)
 	{
-	$('#mainSection').prepend('<form class = "inputFields">' + titles[i] + "<br>" + '<input class="lagersaldoSida" type="text" autofocus id="' + 
+	$('#mainSection').prepend('<form class = "inputFields"><label class="'+ namn[i]+ '" for="'+ namn[i]+'">' + titles[i] + "</label>" + '<input class="lagersaldoSida" type="text" autofocus id="' + 
 		namn[i] + '">' + "<br>" + "</form>");
 	};
 	collectFormData();
+
 $('#search').keyup(function(){
 $.ajax({
 		url:"sql",
