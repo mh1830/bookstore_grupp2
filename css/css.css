@@ -204,11 +204,24 @@ body#rapport li.menuItem1, body#index li.menuItem2, body#saldabocker li.menuItem
 #mainSection label {
 	padding-left:10px;
 	}
-
-#antalMin {position:absolute; top:823px; left:260px;}
-.antalMin {position: absolute; top:807px; left:260px;}
-
-
+#antalPlus {
+	margin-top: -20px;
+	margin-left: 35px;
+}
+.antalPlus {
+	margin-left: 0px;
+	margin-top: 40px;
+}
+#antalMin {
+	position: absolute; 
+	top:820px; 
+	left:335px;
+}
+.antalMin {
+	position: absolute; 
+	top:833px; 
+	left:320px;
+}
 /* Knappen Lägg till */
 .buttonL {
    	padding: 6px 10px;
@@ -242,7 +255,7 @@ body#rapport li.menuItem1, body#index li.menuItem2, body#saldabocker li.menuItem
 .buttonL {
 	float: left;
 	margin-left: 155px;
-	margin-top: 5px;
+	margin-top: -15px;
 }
 /* herbertt code*/
 td, th {
