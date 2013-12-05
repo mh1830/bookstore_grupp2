@@ -204,7 +204,7 @@ body#rapport li.menuItem1, body#index li.menuItem2, body#saldabocker li.menuItem
 #mainSection label {
 	padding-left:10px;
 	}
-#antalPlus {
+/*#antalPlus {
 	margin-top: -20px;
 	margin-left: 35px;
 }
@@ -221,7 +221,7 @@ body#rapport li.menuItem1, body#index li.menuItem2, body#saldabocker li.menuItem
 	position: absolute; 
 	top:833px; 
 	left:320px;
-}
+}*/
 /* Knappen Lägg till */
 .buttonL {
    	padding: 6px 10px;
