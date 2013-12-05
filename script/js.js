@@ -41,7 +41,7 @@ function renderResult(data){
 	html += "<thead><tr>"
 	+ "<th>ISBN</th>"
 	+ "<th>Title</th>"
-	+ "<th>Autor</th>"
+	+ "<th>Author</th>"
 	
 	+ "</tr></thead>"
 
