@@ -198,9 +198,10 @@ body#rapport li.menuItem1, body#index li.menuItem2, body#saldabocker li.menuItem
 }
 /* Last two inputfields*/
 
-#antalMin, #antalPlus {
+/*#antalMin, #antalPlus {
 	width:63px;
 	}
+	*/
 #mainSection label {
 	padding-left:10px;
 	}
